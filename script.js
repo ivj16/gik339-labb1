@@ -130,7 +130,7 @@ console.log("num1: " + num1 + " sum: " + sum);
   2, Output blir 0 eftersom det senaste tilldelade värdet utanför något block är siffran 0.
   
   3, Test 1: Det som skickas som argument är för parameter num1: false (sum) och för parameter num2: siffran 1.
-  Rad 1: Här har false implicit konverterats till 0, vilket ger true.
+  Rad 1: Här har argumentet false implicit konverterats till 0, vilket ger true.
   Rad 2: Strikt jämförelse mellan siffran 1 och strängen "0". Detta ger false.
   Rad 3: Strikt jämförelse mellan siffran 1 och siffran 0, fortfarande false eftersom det inte är samma värde.
   Rad 4: Jämförelse med implicit typkonvertering mellan fasle och NaN (Not a Number). Då NaN inte går att likställa med något, eftersom det inte är ett specifikt värde, blir output false.
