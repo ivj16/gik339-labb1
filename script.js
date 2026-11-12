@@ -214,7 +214,7 @@ function smallCalculator() {
     }
   }
 }
-
+//TA BORT "//" PÅ RADEN NEDANFÖR FÖR ATT KÖRA KALKYLATORN
 //console.log(smallCalculator());
 
 /*Reflektion uppgift 6
